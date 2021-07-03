@@ -77,27 +77,50 @@ body.fotos #navegacao a#fotos {
     background: #F5F5F5;    
 }
 
+#lateral {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
 #primario {
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
-    background: blue;
 }
 
+#bi-coluna #primario {
+    width: 555px;
+}
+
+#solo-coluna #primario {
+    width: 750px;
+    margin: 0 0 20px 0;
+}
 
 #secundario {
     width: 270px;
     float: left;
     margin: 0 0 20px 15px;
-    background: green;
 }
 
+.caixa {
+    margin: 10px 0;
+    padding: 5px;
+    background: #F3F3F3 url(../imagens/fundo-caixa.png);
+}
 
-#lateral {
-    width: 180px;
-    float: left;
-    margin: 0 0 20px -750px;
-    background: yellow;
+h2 {
+    font-size: 1em;
+    background: #294C71;
+    color: #FFF;
+    padding: 5px;
+}
+
+.caixa-conteudo {
+    background: #FFF;
+    padding: 5px;
+    margin-top: 5px;
 
 }
 
