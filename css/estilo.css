@@ -159,6 +159,28 @@ input.submit {
     border: 2px solid #870529;
 }
 
+img.imagem-principal {
+    width: 98%;
+    border: 3px solid #DFDFDF;
+}
+
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3 {
+    background: #B10333;
+    color: #FFF;
+}
+
+.entrevista h3 {
+    background: #DE003E;
+
+}
+
 #container-rodape {
     background: #294C71;
     padding: 20px;
